@@ -1,0 +1,44 @@
+{
+  "name": "Pink Froggy",
+  "spawn_position": [500, 100],
+  "stats": {
+    "health": 100,
+    "lives": 3,
+    "move_speed": 2,
+    "jump_strength": -5,
+    "tongue_length": 50,
+    "tongue_height": 3,
+    "tongue_color": [11, 205, 221]
+  },
+  "controls": {
+  "left": "left",
+  "right": "right",
+  "up": "up",
+  "down": "down",
+  "attack": "rshift"
+},
+
+  "assets": {
+    "idle": {
+      "right": "assets/characters/pink_froggy/frog_p2_right.png",
+      "left": "assets/characters/pink_froggy/frog_p2_left.png"
+    },
+    "walking": {
+      "right": [
+        "assets/characters/pink_froggy/frog_p2_right_walk1.png",
+        "assets/characters/pink_froggy/frog_p2_right_walk2.png"
+      ],
+      "left": [
+        "assets/characters/pink_froggy/frog_p2_left_walk1.png",
+        "assets/characters/pink_froggy/frog_p2_left_walk2.png"
+      ]
+    },
+    "attacking": {
+      "right": "assets/characters/pink_froggy/frog_p2_attack_right.png",
+      "left": "assets/characters/pink_froggy/frog_p2_attack_left.png"
+    },
+    "ducking": "assets/characters/pink_froggy/frog_p2_duck.png",
+    "dead": "assets/characters/pink_froggy/dead_img.png"
+  }
+}
+

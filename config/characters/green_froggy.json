@@ -1,0 +1,60 @@
+
+{
+  "name": "Green Froggy",
+  "spawn_position": [200, 100],
+  "stats": {
+    "health": 100,
+    "lives": 3,
+    "move_speed": 2,
+    "jump_strength": -5,
+    "tongue_length": 50,
+    "tongue_height": 3,
+    "tongue_color": [172, 61, 177]
+  },
+  "controls": {
+  "left": "a",
+  "right": "d",
+  "up": "w",
+  "down": "s",
+  "attack": "lshift"
+},
+
+  "assets": {
+    "idle": {
+      "right": "assets/characters/green_froggy/frog_p1_right.png",
+      "left": "assets/characters/green_froggy/frog_p1_left.png"
+    },
+    "walking": {
+      "right": [
+        "assets/characters/green_froggy/frog_p1_right_walk1.0.png",
+        "assets/characters/green_froggy/frog_p1_right_walk1.25.png",
+        "assets/characters/green_froggy/frog_p1_right_walk1.50.png",
+        "assets/characters/green_froggy/frog_p1_right_walk1.75.png",
+        "assets/characters/green_froggy/frog_p1_right_walk2.0.png",
+        "assets/characters/green_froggy/frog_p1_right_walk2.25.png",
+        "assets/characters/green_froggy/frog_p1_right_walk2.50.png",
+        "assets/characters/green_froggy/frog_p1_right_walk2.75.png",
+        "assets/characters/green_froggy/frog_p1_right_walk2.76.png",
+        "assets/characters/green_froggy/frog_p1_right_walk2.78.png"
+      ],
+      "left": [
+        "assets/characters/green_froggy/frog_p1_left_walk1.0.png",
+        "assets/characters/green_froggy/frog_p1_left_walk1.25.png",
+        "assets/characters/green_froggy/frog_p1_left_walk1.50.png",
+        "assets/characters/green_froggy/frog_p1_left_walk1.75.png",
+        "assets/characters/green_froggy/frog_p1_left_walk2.0.png",
+        "assets/characters/green_froggy/frog_p1_left_walk2.25.png",
+        "assets/characters/green_froggy/frog_p1_left_walk2.50.png",
+        "assets/characters/green_froggy/frog_p1_left_walk2.75.png",
+        "assets/characters/green_froggy/frog_p1_left_walk2.76.png",
+        "assets/characters/green_froggy/frog_p1_left_walk2.78.png"
+      ]
+    },
+    "attacking": {
+      "right": "assets/characters/green_froggy/frog_p1_attack_right.png",
+      "left": "assets/characters/green_froggy/frog_p1_attack_left.png"
+    },
+    "ducking": "assets/characters/green_froggy/frog_p1_duck.png",
+    "dead": "assets/characters/green_froggy/dead_img.png"
+  }
+}

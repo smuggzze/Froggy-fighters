@@ -42,5 +42,11 @@
 
 You can install the required library using pip:
 
-```bash
+
 pip install pygame
+
+
+## Running the game
+
+run by typing "python froggy_fighters" in the console
+
